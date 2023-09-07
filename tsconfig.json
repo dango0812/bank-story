@@ -7,11 +7,13 @@
       "dom.iterable",
       "esnext"
     ],
+    "types": ["@emotion/react/types/css-prop"],
     "strict": true,
     "noEmit": true,
     "allowJs": true,
     "module": "esnext",
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "skipLibCheck": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
